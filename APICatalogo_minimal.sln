@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogo_minimal", "APICatalogo_minimal.csproj", "{09D2DEEC-9536-4BEB-9FF1-324FA19F6F8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D2DEEC-9536-4BEB-9FF1-324FA19F6F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D2DEEC-9536-4BEB-9FF1-324FA19F6F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D2DEEC-9536-4BEB-9FF1-324FA19F6F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D2DEEC-9536-4BEB-9FF1-324FA19F6F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F266F4-1300-4DB9-B3F8-A2CF4B522AF1}
+	EndGlobalSection
+EndGlobal
