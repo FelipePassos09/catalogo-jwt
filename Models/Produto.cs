@@ -1,4 +1,7 @@
-﻿namespace APICatalogo_minimal.Models
+﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Text.Json.Serialization;
+
+namespace APICatalogo_minimal.Models
 {
     public class Produto
     {
@@ -10,6 +13,9 @@
         public DateTime BuyDate { get; set; }
         public int Stock { get; set; }
         public int CategoriaId { get; set; }
+
+        [JsonIgnore]
         public Categoria? Categoria { get; set; }
+
     }
 }
